@@ -1,0 +1,45 @@
+.listado{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cabecera{
+    padding: 20px;
+    margin: 0px;
+    background-color: purple;
+    color: white;
+}
+
+.listado{
+    height: 100vh;
+    
+}
+
+.lugar{
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imagenLugar{
+    width: 20%;
+}
+
+.infoLugar{
+    width: 60%;
+}
+
+.opcionesLugar{
+    color: black;
+    text-decoration: none;
+    width: 20%;
+}
+
+span{
+    font-weight: bold;
+}
